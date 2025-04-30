@@ -525,13 +525,82 @@ NEXT EVENT COOMING SOON
     color: #e62799;
  }
 
- @media (max-width: 768px){
+
+.box [type="submit"][value="TELEGRAM"]{
+   position: relative;
+   display:inline-block;
+   font-family: 'bebas';
+   font-style: normal;
+   font-size: 25px;
+
+
+   padding: 10% 20%;
+   margin-bottom: 20%;
+
+   border: 2px;
+   border-color: #e62799;
+   border-style: solid;
+
+
+   text-align: center; 
+   background: #1b1b1b;
+   outline: none; 
+   color: #e62799; 
+   border-radius: 50px; 
+   cursor: pointer;
+   
+   }
+.box [type="submit"][value="TELEGRAM"]:hover{
+   background: #e62799;
+   color: #ffffff; 
+   cursor: pointer;
+   }
+
+.box [type="submit"][value="PAGINA IG"]{
+   position: relative;
+   display:inline-block;
+   font-family: 'bebas';
+   font-style: normal;
+   font-size: 25px;
+
+   padding: 15% 40%;
+   margin-bottom: 20%;
+
+   border: 2px;
+   border-color: #F1FF12;
+   border-style: solid;
+
+
+   text-align: center; 
+   background: #1b1b1b;
+   outline: none; 
+   color: #F1FF12; 
+   border-radius: 50px; 
+   cursor: pointer;
+   }
+.box [type="submit"][value="PAGINA IG"]:hover{
+   background: #F1FF12;
+   color: #1B1B1B; 
+   cursor: pointer;
+       }
+       
+@media (max-width: 768px){
    .coming_soon{
       font-size: clamp(50px, 5vw, 25px);
        text-align:center;
        color: #e62799;
     }
-   }
+
+    .box [type="submit"][value="TELEGRAM"]{
+       font-size: 10px;
+       }
+
+   .box [type="submit"][value="PAGINA IG"]{
+       font-size: 10px;
+       }
+}
+
+
 
   @media (max-width: 768px){
    .contatti{
