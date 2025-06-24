@@ -540,3 +540,38 @@ Box Contatti
    }
 
    }
+
+/* --- SEZIONE IMMAGINE E TESTO PRIMA DELL'ACCORDION --- */
+.info_festival {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem auto;
+  max-width: 1200px;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.info_image img {
+  max-width: 100%;
+  height: auto;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.info_testo {
+  flex: 1;
+  min-width: 280px;
+}
+
+.info_testo h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.info_testo p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
