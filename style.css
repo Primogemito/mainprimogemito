@@ -575,3 +575,7 @@ Box Contatti
   font-size: 1.1rem;
   line-height: 1.5;
 }
+
+.accordion p {
+  margin-bottom: 1rem; /* spazio tra i paragrafi */
+}
