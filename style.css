@@ -579,3 +579,19 @@ Box Contatti
 .accordion p {
   margin-bottom: 1rem; /* spazio tra i paragrafi */
 }
+
+.bottone-pdf {
+  text-align: center;
+  background-color: #d5008f;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  margin: 10px 0;
+}
+
+.bottone-pdf:hover {
+  background-color: #b40077;
+}
