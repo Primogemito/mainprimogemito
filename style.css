@@ -598,10 +598,12 @@ Box Contatti
 
 .box_pulsanti {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;  /* ✅ disposizione orizzontale */
+  justify-content: center; /* centra orizzontalmente */
   align-items: center;
-  gap: 10px;
+  gap: 20px; /* spazio tra i bottoni */
   margin: 20px 0;
+  flex-wrap: wrap; /* facoltativo: permette di andare a capo su schermi piccoli */
 }
 
 .box {
@@ -640,12 +642,4 @@ Box Contatti
   background-color: #b40077;
 }
 
-.box_pulsanti {
-  display: flex;
-  flex-direction: row;  /* ✅ disposizione orizzontale */
-  justify-content: center; /* centra orizzontalmente */
-  align-items: center;
-  gap: 20px; /* spazio tra i bottoni */
-  margin: 20px 0;
-  flex-wrap: wrap; /* facoltativo: permette di andare a capo su schermi piccoli */
-}
+
